@@ -1,0 +1,12 @@
+name,leave_type,from_date,to_date,reason,status,manager_email,applied_on
+,,,,,,,
+ravi,CL,20-09-2025,22-09-2025,home,Pending,cjeet2020@yahoo.com,2025-09-20 05:36:25
+mohan,SL,20-09-2025,22-09-2025,home,Pending,cjeet2020@gmail.com,2025-09-20 05:43:11
+ram,EL,20-09-2025,20-09-2025,home,Pending,cjeet2020@gmail.com,2025-09-20 22:42:26
+ravi,CL,20-09-2025,20-09-2025,home,Pending,cjeet2020@yahoo.com,2025-09-20 22:57:41
+mohan,CL,22-09-2025,22-09-2025,home,Pending,cjeet2020@gmail.com,2025-09-21 00:07:28
+mohan,CL,22-09-2025,22-09-2025,home,Pending,cjeet2020@gmail.com,2025-09-21 00:07:50
+mohan,EL,24-09-2025,24-09-2025,home,Approved,cjeet2020@gmail.com,2025-09-21 00:37:57
+ravi,SL,22-09-2025,22-09-2025,,Approved,cjeet2020@yahoo.com,2025-09-21 10:34:56
+mohan,CL,22-09-2025,22-09-2025,personal work,Approved,cjeet2020@gmail.com,2025-09-21 10:58:51
+mohan,SL,23-09-2025,23-09-2025,,Approved,cjeet2020@gmail.com,2025-09-21 11:22:57
