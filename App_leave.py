@@ -163,7 +163,8 @@ st.markdown("<div style='background-color:#eaeaea; padding:10px; border:1px soli
 emp_history = history_df[history_df['name'] == selected_name].sort_values("applied_on", ascending=False).head(10)
 if not emp_history.empty:
     show_df_display = emp_history[["leave_type", "from_date", "to_date", "reason", "status", "applied_on"]]
-    st.dataframe(show_df_display, width='stretch')
+    st.dataframe(show_df_display, use_container_width=True)
 else:
 
     st.info("No leave history records found for this employee.")
+
