@@ -3,8 +3,8 @@ import pandas as pd
 import datetime
 import os
 
-BALANCE_CSV = r"C:\Users\Chandrajeet\ERP\project_code\leaveBalance.csv"
-HISTORY_CSV = r"C:\Users\Chandrajeet\ERP\project_code\leave_History.csv"
+BALANCE_CSV = r"leaveBalance.csv"
+HISTORY_CSV = r"leave_History.csv"
 
 def load_leave_data():
     df = pd.read_csv(BALANCE_CSV)
@@ -165,4 +165,5 @@ if not emp_history.empty:
     show_df_display = emp_history[["leave_type", "from_date", "to_date", "reason", "status", "applied_on"]]
     st.dataframe(show_df_display, width='stretch')
 else:
+
     st.info("No leave history records found for this employee.")
